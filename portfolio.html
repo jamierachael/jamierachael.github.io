@@ -1,36 +1,87 @@
 <!DOCTYPE HTML>
 <HTML lang="en-us">
+
 <head>
     <meta charset="UTF-8">
-    <Title>Basic-Portfolio</Title>
-
+    <!-- This is the first step in making the document responsive but scaling the items to screen -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Jamie Morris Homework-2 Responsive-Portfolio -->
+    <!-- This is the title-->
+    <Title>Responsive-Portfolio</Title>
+    <!-- These are the style links. Reset CSS and Styles CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
+<!-- This is the body -->
 
 <body>
-        <div class="wrapper">
+    <!--This is the area with all of the content-->
+    <!-- This is the header -->
     <header>
-            <h1 id="contact-heading">&nbsp;Jamie Rachael Morris</h1>
+        <!--This is the container with all of the content-->
+        <div class="container">
+            <!-- This is a link -->
+            <a href="index.html" id="logo">Jamie Rachael Morris</a>
+            <!-- This is the navigation-->
             <nav>
-                    <a href="index.html">About</a>|
-                    <a href="portfolio.html">Portfolio</a>|
-                    <a href="contact.html">Contact</a>|
-                  </nav>
-    
+                <a href="index.html">About</a>|
+                <a href="portfolio.html">Portfolio</a>|
+                <a href="contact.html">Contact</a>|
+            </nav>
+        </div>
     </header>
+    <!-- This is the white area with the written content -->
+    <div id="main-container" class="container">
+        <!-- Start main section -->
+        <section class="main">
+            <!-- Pages main heading -->
+            <h1>Portfolio</h1>
+            <!-- photo 1-->
+            <div class="work">
+                <img src="assets/images/nature-1.jpg" class="port" alt="image-1">
+                <h3>Password Generator</h3>
+                <a href="https://jamierachael.github.io/Password-Generator/"></a>
+            </div>
 
-    <div class="main-contact">
-    <section id="main-bio">
-            <h2>Portfolio</h2>
-            <hr>
-            
-   
-    </section>    
-</div>
-</div>
-<footer>
-<p>Copyright &copy; 2019</p>
-</footer> 
+            <!-- photo 2-->
+            <div class="work">
+                <img src="assets/images/nature-2.jpg" class="port" alt="image-2">
+                <h3>Code Quiz</h3>
+                <a href="https://jamierachael.github.io/Code-Quiz/"></a>
+            </div>
+
+            <!-- photo 3-->
+            <div class="work">
+                <img src="assets/images/nature-3.jpg" class="port" alt="image-3">
+                <h3>Proofreading</h3>
+            </div>
+
+            <!-- photo 4-->
+            <div class="work">
+                <img src="assets/images/nature-4.jpg" class="port" alt="image-4">
+                <h3>Virtual Assistance</h3>
+            </div>
+
+            <!-- photo 5-->
+            <div class="work">
+                <img src="assets/images/nature-5.jpg" class="port" alt="image-5">
+                <h3>CRM/CMS</h3>
+            </div>
+
+            <!-- photo 6-->
+            <div class="work">
+                <img src="assets/images/nature-6.jpg" class="port" alt="image-6">
+                <h3>Data Entry</h3>
+            </div>
+            <!-- End main section -->
+        </section>
+    </div>
+
+    <footer>
+        <!-- This is a footer-->
+        <p>Copyright &copy; 2019</p>
+    </footer>
+
 </body>
 
 </HTML>

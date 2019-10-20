@@ -1,121 +1,288 @@
+/* Adjustments for this project were created by following the Homework-1 solved video */
+/* This is the universal selector */
+* {
+    box-sizing: border-box;
+}
+/* This is style for the body */
 body {
-    margin: 0px; 
-    padding; 0px;
+    background-image: url("../images/gravel/gravel.png");
+    font-size: 18px;
+    line-height: 34px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
-   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 }
-
-header {
-    background-color: #ffffff;
-    border-color: #cccccc;
-    margin: 0 auto;
-    position: relative;
-}
-
-
-nav {
-    position: relative;
-    /* Try a percentage for the margin-left */
-    margin-left: 900px;
-    bottom: 30px;
-}
-
-nav a { text-decoration: none;
-    color: #777777;
-    margin: 10px;
-}
-
-.wrapper {
+/* Wrapper changed to "container" for testing and formatting change*/
+/* This code example is from the homework-1 solved video */
+.container {
     width: 100%;
-    background-color: lightgray;
-    height: 700px;
-    /* border-bottom: 10px solid #4aaaa5; */
-
+    max-width: 960px;
+    margin: 0 auto; 
+    clear: both;
+}
+/* This is style for the header */
+header {     
+    background-color: #ffffff;
+    margin: 0 0 30px;
+    z-index: 99;
+    overflow: auto;
+    border-bottom: 2px solid #cccccc;
+    position: fixed;
+    width: 100%;
 }
 
-h1, h2 {
-    
+/* This now styles the h1 within the header */
+/* This code example is from the homework-1 solved video */
+#logo {
+    width: 255px;
+    height: 80px;
+    background: #4aaaa5;
+    float: left;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align: center;
+    line-height: 80px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 30px;
+    text-decoration: none;
 }
-
-h1 { color: white;
-    width: 27%;
-    background-color: #4aaaa5;
-    /* Try a percentage for the margin-left */
-    margin-left: 235px;
-    position: relative;
-    top: 40px;
-    padding: 20px;
+/* This is style for the nav */
+nav {
+    float: right;
+    margin-top: 25px;
 }
-
-
-h2 {
+/* This is style for the nav links */
+/* This code example is from the homework-1 solved video */
+nav a { 
+    color: #999999;
+    text-decoration: none;
+    margin-left: 15px;
+    display: inline-block;
+    border-left: 1px solid #eeffee;
+    padding-left: 10px;
+    padding-right: 15px;
+    line-height: 18px;
+}
+/* Removes border to firsrt child only */ 
+/* This code example is from the homework-1 solved video */
+nav a:first-child {
+    border-left: 0 none;
+}
+/* General styling for h1, h2, h3 */
+/* This code example is from the homework-1 solved video */
+h1, h2, h3, p {
+    margin-bottom: 20px;
+}
+/* Removes bottom margin from all p elements */ 
+/* This code example is from the homework-1 solved video */
+p:last-child {
+    margin-bottom: 0;
+}
+/* This styles h1, h2, h3  elements only */
+h1, h2, h3 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: 700;
     color: #4aaaa5;
-    padding-top: 20px;
-    margin-left: 10px;
 }
-
-.main-content {
-    background-color: #ffffff;   
-    border-color: #dddddd; 
-    width: 960px;
-    margin: 0 auto;
-    height: 475px;
-    
+/* This styles all other h1 elements */
+h1 {
+    font-size: 30px;
+    line-height: 49px;
+    border-bottom: 3px solid #ddd;
+    padding-bottom: 20px;
 }
-
-.main-contact {
-    background-color: #ffffff;   
-    border-color: #dddddd; 
-    width: 960px;
-    margin: 0 auto;
-    height: 525px;
-    
+/* This styles all other h2, h3  elements only */
+h2, h3 {
+    font-size: 22px;
 }
-
-p { margin: 20px;
-    
-  }
-
-
-
-img {float: left;
-    padding: 20px;
-    padding-bottom: 10px;
-    padding-top: 15px;
+/* This styles the main-container id */
+#main-container {
+    padding-top: 130px;
 }
-
-
-form {
-    margin: 25px;
-    padding-left: 30px;
+/* This styles the main id */
+.main {
+    background: #ffffff;
+    padding: 30px;
+    margin: 0 0 40px 0;
+    width: 100%;
+    max-width: 960px;
+    float: left;
+    border: 1px solid #dddddd;
 }
-
-
-.length { width: 800px;
-    margin-top: 5px;
+/* Styles portfolio photo the same as the profile photo */ 
+.port {
+    width: 300px;
+    height: auto;
+    margin-top: 10px; 
+    float: left; 
+    margin-right: 25px;
+}
+/* Styles div that encapsulate portfolio photos and their headings */ 
+/* This code example is from the homework-1 solved video */
+.work {
+    width: 30%;
+    overflow: auto;
+    position: relative; 
+    float: left; 
+    margin: 10px 10px;
+}
+/* Selects element within a class */ 
+/* This code example is from the homework-1 solved video */
+.work img {
+    width: 100%; 
+    border: 0 none;
+}
+/* Selects element within a class */ 
+/* This code example is from the homework-1 solved video */
+.work h3 {
+    border-bottom: 0; 
+    background-color: #4aaaa5;
+    color: #ffffff;
+    text-align: center; 
+    position: absolute; 
+    bottom: 20px; 
+    padding: 15px; 
+    width: 100%;
+    line-height: 30px;
+    margin-bottom: 0;
+    font-weight: 300; 
+}
+/* Selects element within an id */ 
+/* This code example is from the homework-1 solved video */
+#contact-form ul {
+    margin-bottom: 20px;
+}
+/* Selects element within an id */ 
+/* This code example is from the homework-1 solved video */
+#contact-form li {
     margin-bottom: 10px;
 }
-
-#submit {
-    
-        background-color: #4aaaa5; /* Green */
-        border: none;
-        color: white;
-        padding: 10px 25px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-      
+/* Selects specific input types */ 
+/* This code example is from the homework-1 solved video */
+label, 
+input[type=text],
+input[type=email],
+textarea {
+    display: block; 
+    width: 100%;
 }
-
+/* Selects specific input types */ 
+/* This code example is from the homework-1 solved video */
+input[type=text],
+input[type=email],
+textarea {
+    height: 35px;
+    border: 1px solid #ddd;
+    padding: 0 10px;
+    font-size: 14px;
+}
+/* Styles the height of the text area */ 
+textarea {
+    height: 200px;
+}
+/* Selects specific input types */ 
+/* This code example is from the homework-1 solved video */
+input[type=submit] {
+    background-color: #4aaaa5;
+    border: 0 none;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 10px 30px;
+}
+/* Styles Sticky Footer */ 
 footer {
     background-color: #666666;
-    padding: 20px;
-    text-align: center;
+    padding: 30px 0;
     clear: both;
-    color: #cccccc;
     border-top: 8px solid #4aaaa5;
+    color: #ccc;
+    font-size: 12px; 
+    text-align: center;
+    position: sticky;
+    bottom: 0;
+    z-index: 2;
+}
+/* Start Media Query */
+/* A Media Query max-width: 980px */
+@media screen and (max-width: 980px) {
+/* Resized content to fit 980px  */
+    .container {
+        max-width: 980px;
+    }
+/* Resized main-content to fit 980px  */
+    .main {
+        width: 80%;
+        margin-left: 10%; 
+        margin-right: 10%; 
+    }
+    /* Moves logo */
+    #logo { 
+        margin-left: 10%;
+}
+/* Moves Nav  */
+nav {
+    margin-right: 10%;
+}
 
+}
+
+/* A Media Query max-width: 786px */
+@media screen and (max-width: 786px) {
+/* Resized content to fit 786px  */
+    .container {
+        max-width: 786px;
+    }
+/* Resized main-content to fit 786px  */
+    .main {
+        width: 80%;
+        margin: 10%; 
+    }
+/* Moves Nav  */
+    nav {
+        margin-right: 10%;
+    }
+/* Respositions photo on portfolio page  */
+    .work {
+        width: 40%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    }
+    
+/* A Media Query max-width: 640px */
+@media screen and (max-width: 640px) {
+ /* Resized content to fit 640px  */
+    .container {
+        min-width: 640px;
+    }
+/* Resized main-content to fit 640px  */
+    .main {
+        width: 80%;
+        margin: 10%; 
+    }
+/* Moves logo  */
+    #logo { position: static;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+/* Moves Nav  */
+    nav {
+        margin-left: 24%;
+        margin-right: 24%;
+    }
+/* Resizes photo and label heading */
+    .work {
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+/* Selects element within a class */ 
+/* Moves label and photo */ 
+    .work h3 {
+        padding: 10px; 
+    }
+/* Resizes footer */
+    footer {
+        min-width: 640px;
+    }
 }
