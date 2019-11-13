@@ -231,6 +231,21 @@ footer {
     bottom: 0;
     z-index: 2;
 }
+
+.short {
+    background-color: #666666;
+    padding: 30px 0;
+    
+    /* border-top: 8px solid #4aaaa5; */
+    border-top: 8px solid #f7c297; 
+    color: #ccc;
+    font-size: 12px; 
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    
+}
+
 /* Start Media Query */
 /* A Media Query max-width: 980px */
 @media screen and (max-width: 980px) {
