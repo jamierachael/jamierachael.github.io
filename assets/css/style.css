@@ -125,6 +125,8 @@ h2, h3 {
     float: left; 
     margin: 10px 10px;
 }
+
+
 /* Selects element within a class */ 
 /* This code example is from the homework-1 solved video */
 .work img {
@@ -145,6 +147,27 @@ h2, h3 {
     line-height: 30px;
     margin-bottom: 0;
     font-weight: 300; 
+}
+
+.list img {
+    width: 70%;
+    margin-left: 15%;
+}
+
+
+
+.list {
+    /* margin-left: 5%; */
+    padding-left: 5px;
+}
+
+.list a:link {
+    text-decoration: none;
+
+}
+
+.project {
+    font-size: 19px;
 }
 /* Selects element within an id */ 
 /* This code example is from the homework-1 solved video */
