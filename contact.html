@@ -1,76 +1,245 @@
-<!DOCTYPE HTML>
-<HTML lang="en-us">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <!-- This is the first step in making the document responsive but scaling the items to screen -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Jamie Morris Homework-2 Responsive-Portfolio -->
-    <!-- This is the title-->
-    <Title>Jamie Morris - Web Developer</Title>
-    <!-- These are the style links. Reset CSS and Styles CSS -->
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Jamie Rachael - Web Developer</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <!-- Icons-->
+
 </head>
-<!-- This is the body -->
 
 <body>
-    <!--This is the area with all of the content-->
-    <!-- This is the header -->
-    <header>
-        <!--This is the container with all of the content-->
-        <div class="container">
-            <!-- This is a link -->
-            <a href="index.html" id="logo">Jamie Rachael Morris</a>
-            <!-- This is the navigation-->
-            <nav>
-                <a href="index.html">About</a>|
-                <a href="portfolio.html">Portfolio</a>|
-                <a href="contact.html">Contact</a>|
-                <a href="assets/CV_JMorrisdoc.pdf">Resume</a>|
-            </nav>
+    <nav class="white" role="navigation">
+        <div class="nav-wrapper container">
+            <a id="logo-container" href="index.html" class="brand-logo">Jamie Rachael</a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="resume.html">Resume</a></li>
+            </ul>
+
+            <ul id="nav-mobile" class="sidenav">
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="resume.html">Resume</a></li>
+            </ul>
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         </div>
-    </header>
-    <!-- This is the white area with the written content -->
-    <div id="main-container" class="container">
-        <!-- Start main section -->
-        <section class="main">
-            <!-- Pages main heading -->
-            <h1>Contact</h1>
-            <!-- This is contact form-->
-            <form id="contact-form">
-                <ul>
-                    <!-- Label and input for name-->
-                    <li>
-                        <label for="name">Name</label>
-                        <input type="text" name="name" id="name" placeholder="You Name" required="required">
-                    </li>
-                    <!-- Label and input for email-->
-                    <li>
-                        <label for="email">Email</label>
-                        <input type="text" name="email" id="email" placeholder="yourname@me.com" required="required">
-                    </li>
-                    <!-- Label and input for message-->
-                    <li>
-                        <label for="message">Message</label>
-                        <textarea id="message" name="message" required="required">
-                        </textarea>
-                        <!-- This is the submit button-->
-                    </li>
-                    <input type="submit" name="submit">
-                </ul>
+    </nav>
 
-            </form>
+    <div id="index-banner" class="parallax-container">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <br><br>
 
-            <!-- End main section -->
-        </section>
+                <div class="row center">
+                    <div class="row">
+
+                        <div class="grid-example col s12">
+
+                            <div class="card white contact-card">
+
+                                <div class="card-content teal-text">
+                                    <div class="border">
+                                        <h4 class="header center teal-text text-lighten-2">Contact Me</h4>
+
+
+                                        <div class="card-content">
+                                            <p class="contact">
+                                                Your communication is important to me. Therefore, in lieu of a contact
+                                                form,
+                                                please
+                                                feel free to contact me directly.
+                                            </p>
+                                            <p class="ccard">Phone: <a href="tel:+7147860736"> 714-786-0736</a></p>
+
+                                            <p class="ccard">Email: <a
+                                                    href="mailto:webmaster@jamie.rachael@gmail.com">jamie.rachael@gmail.com</a>
+                                            </p>
+                                            <p class="ccard">LinkedIn: <a
+                                                    href="https://www.linkedin.com/in/jamie-rachael-morris/">jamie-rachael-morris</a>
+                                            </p>
+                                        </div>
+
+
+
+                                    </div>
+                                    <h5>Full Stack Web developer</h5>
+                                    <p>Offering a variety of services and professional support.</p>
+                                </div>
+                                <div class="card-action">
+                                    <a href="https://www.linkedin.com/in/jamie-rachael-morris/">LinkedIn</a>
+                                    <a href="https://github.com/jamierachael">Github</a>
+
+                                </div>
+
+                                </section>
+
+                                <!-- End main section -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <br><br>
+
+            </div>
+        </div>
+        <div class="parallax" id="op-para"><img src="assets/images/pano-dam.jpg"
+                alt="panoramic-dam-photo-mateo_atom-instagram">
+        </div>
     </div>
 
-    <footer>
-        <!-- This is a footer-->
-        <p>Jamie Rachael Morris Copyright &copy; 2019</p>
-    </footer>
+
+    <div class="container">
+        <div class="section">
+
+            <!--   Icon Section   -->
+            <div class="row">
+                <div class="col s12 m4">
+                    <div class="card start">
+                        <div class="icon-block">
+                            <h2 class="center brown-text"><a href="about.html"><i class="fas fa-user-alt"></i></h2>
+                            <span class="card-title">
+                                <h5 class="center">About
+                                    </a></h5>
+
+                            </span>
+                            <div class="middle">
+                                <p class="light">Learn a little about my background and experience, and what I
+                                    can offer
+                                    your
+                                    company or
+                                    business.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+
+                    <!-- Start Card-->
+                    <div class="card start">
+                        <div class="icon-block">
+                            <h2 class="center brown-text"><a href="portfolio.html"><i class="far fa-images"></i></h2>
+                            <span class="card-title">
+                                <h5 class="center">Portfolio</a></h5>
+                            </span>
+                            <div class="middle">
+                                <p class="light">Feel free to view and demonstrate projects and applications
+                                    I've
+                                    developed or
+                                    collaborated on.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Card-->
+                </div>
+
+                <div class="col s12 m4">
+
+                    <!-- Start Card -->
+                    <div class="card start">
+                        <div class="icon-block">
+                            <h2 class="center brown-text"><a href="contact.html"><i class="far fa-address-book"></i>
+                            </h2>
+                            <span class="card-title">
+                                <h5 class="center">Contact</a></h5>
+
+                            </span>
+                            <div class="middle">
+                                <p class="light">I am interested in connecting with potential employers, clients
+                                    and
+                                    professionals in my
+                                    field, and learning about new opportunites.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Card -->
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="parallax-container valign-wrapper">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <div class="row center">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="parallax" id="op-para"><img src="assets/images/pano-shore.jpg"
+                alt="panoramic-shore-photo-mateo_atom-instagram">
+        </div>
+
+        <div class="container">
+            <div class="section">
+
+                <div class="row">
+                    <div class="col s12 center">
+                        <h3><i class="mdi-content-send brown-text"></i></h3>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="parallax-container valign-wrapper">
+            <div class="section no-pad-bot">
+                <div class="container">
+                    <div class="row center">
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <footer class="page-footer teal">
+            <div class="container">
+                <div class="row">
+                    <div class="col l8 s14">
+                        <h5 class="white-text">Contact Us</h5>
+                        <p class="grey-text text-lighten-4">We are a team of college students working on this project
+                            like it's our
+                            full time job. Any amount would help support and continue development on this project and is
+                            greatly
+                            appreciated.</p>
+                    </div>
+
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+
+                    <p class="brown-text text-lighten-3">Jamie Rachael Morris Copyright &copy; 2019</p>
+                </div>
+            </div>
+        </footer>
+
+
+        <!--  Scripts-->
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="js/materialize.js"></script>
+        <script src="js/init.js"></script>
 
 </body>
 
-</HTML>
+</html>

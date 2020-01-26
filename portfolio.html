@@ -1,100 +1,428 @@
-<!DOCTYPE HTML>
-<HTML lang="en-us">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <!-- This is the first step in making the document responsive but scaling the items to screen -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Jamie Morris Homework-2 Responsive-Portfolio -->
-    <!-- This is the title-->
-    <Title>Jamie Morris - Web Developer</Title>
-    <!-- These are the style links. Reset CSS and Styles CSS -->
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Jamie Rachael - Web Developer</title>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <!-- Icons-->
+
 </head>
-<!-- This is the body -->
 
 <body>
-    <!--This is the area with all of the content-->
-    <!-- This is the header -->
-    <header>
-        <!--This is the container with all of the content-->
-        <div class="container">
-            <!-- This is a link -->
-            <a href="index.html" id="logo">Jamie Rachael Morris</a>
-            <!-- This is the navigation-->
-            <nav>
-                <a href="index.html">About</a>|
-                <a href="portfolio.html">Portfolio</a>|
-                <a href="contact.html">Contact</a>|
-                <a href="assets/CV_JMorrisdoc.pdf">Resume</a>|
-            </nav>
+    <nav class="white" role="navigation">
+        <div class="nav-wrapper container">
+            <a id="logo-container" href="index.html" class="brand-logo">Jamie Rachael</a>
+            <ul class="right hide-on-med-and-down">
+
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="resume.html">Resume</a></li>
+            </ul>
+
+            <ul id="nav-mobile" class="sidenav">
+
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="resume.html">Resume</a></li>
+            </ul>
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         </div>
-    </header>
-    <!-- This is the white area with the written content -->
-    <div id="main-container" class="container">
-        <!-- Start main section -->
-        <section class="main">
-            <!-- Pages main heading -->
-            <h1>Portfolio</h1>
-            <!-- photo 1-->
-            <div class="work">
-                <img src="assets/images/nature-1.jpg" class="port" alt="image-1">
-                <a href="https://jamierachael.github.io/Password-Generator/">
-                    <h3>Password Generator</h3>
-                </a>
-            </div>
+    </nav>
 
-            <!-- photo 2-->
-            <div class="work">
-                <img src="assets/images/nature-2.jpg" class="port" alt="image-2">
-                <a href="https://jamierachael.github.io/Code-Quiz/">
-                    <h3>Code Quiz</h3>
-                </a>
-            </div>
+    <div id="index-banner" class="parallax-container">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <br><br>
+                <!-- Start Row Center 1 -->
+                <div class="row center">
+                    <!-- Start Main Row -->
+                    <div class="row">
+                        <!-- Change to "col" after -->
+                        <div class="grid-example col s12">
+                            <!-- "col s12 m4 l8" -->
+                            <div class="card white about-card">
+                                <div class="card-content teal-text">
+                                    <section>
+                                        <!-- <div> -->
+                                        <div class="card-title" id="about-title">
+                                            <h4 class="header teal-text text-lighten-2">Portfolio</h4>
+                                        </div>
+                                        <div class="card-content">
+                                            <!-- Start first row -->
+                                            <div class="row">
 
-            <!-- photo 3-->
-            <div class="work">
-                <img src="assets/images/nature-3.jpg" class="port" alt="image-3">
-                <a href="https://jamierachael.github.io/Survivor-Bootcamp-edition/">
-                    <h3 class="project">Survivor: Bootcamp edition</h3>
-                </a>
-            </div>
+                                                <!--   Port card One -  Password Generator  -->
+                                                <div class="col s12 m4">
+                                                    <div class="card" id="tab1P">
+                                                        <div class="icon-block">
+                                                            <span class="card-title"><a
+                                                                    href="https://jamierachael.github.io/Password-Generator/">
+                                                                    <h5 class="center white-text work"> Password
+                                                                        Generator</h5>
+                                                                    <div class="card-image">
+                                                                        <img src="assets/images/nature-1.jpg"
+                                                                            class="port" alt="image-1">
+                                                                    </div>
+                                                                </a>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--   End Card One -->
 
-            <!-- photo 4-->
-            <div class="work">
-                <img src="assets/images/nature-4.jpg" class="port" alt="image-4">
-                <a href="https://jamierachael.github.io/Day-Planner/">
-                    <h3>Day Planner</h3>
-                </a>
-            </div>
+                                                <!--   Port card two -  Code Quiz  -->
+                                                <div class="col s12 m4">
+                                                    <div class="card" id="tab2P">
+                                                        <div class="icon-block">
+                                                            <span class="card-title"><a
+                                                                    href="https://jamierachael.github.io/Code-Quiz/">
+                                                                    <h5 class="center white-text work"> Code Quiz
+                                                                    </h5>
+                                                                    <div class="card-image">
+                                                                        <img src="assets/images/nature-2.jpg"
+                                                                            class="port" alt="image-1">
+                                                                    </div>
+                                                                </a>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--   End Card two -->
 
-            <!-- photo 5-->
-            <div class="work">
-                <img src="assets/images/nature-5.jpg" class="port" alt="image-5">
-                <a href="https://radiant-plains-19401.herokuapp.com/">
-                    <h3>Balance</h3>
-                </a>
-            </div>
+                                                <!--   Port card three -  urvivor: Bootcamp edition  -->
+                                                <div class="col s12 m4">
+                                                    <div class="card" id="tab3P">
+                                                        <div class="icon-block">
+                                                            <span class="card-title"><a
+                                                                    href="https://jamierachael.github.io/Survivor-Bootcamp-edition/">
+                                                                    <h5 class="center white-text work tab3P">
+                                                                        Survivor:
+                                                                        Bootcamp edition
+                                                                    </h5>
+                                                                    <div class="card-image">
+                                                                        <img src="assets/images/nature-3.jpg"
+                                                                            class="port" alt="image-1">
+                                                                    </div>
+                                                                </a>
+                                                            </span>
+                                                        </div>
+                                                    </div>
 
-            <!-- photo 6-->
-            <div class="work">
-                <img src="assets/images/nature-6.jpg" class="port" alt="image-6">
-                <a href="https://jamierachael.github.io/Weather-Dashboard/">
-                    <h3>Weather Dashboard</h3>
-                </a>
-            </div>
-            <p><a href="list.html">Projects by List</p></a>
-            <!-- End main section -->
-        </section>
+                                                </div>
+                                                <!--   End Card three-->
+                                            </div>
+                                            <!-- End row one -->
 
+                                            <!-- Start row two-->
+                                            <div class="row">
+
+                                                <!--   Port card four -  Day Planner  -->
+                                                <div class="col s12 m4">
+                                                    <div class="card" id="tab4P">
+                                                        <div class="icon-block">
+                                                            <span class="card-title"><a
+                                                                    href="https://jamierachael.github.io/Day-Planner/">
+                                                                    <h5 class="center white-text work"> Day Planner
+                                                                    </h5>
+                                                                    <div class="card-image">
+                                                                        <img src="assets/images/nature-4.jpg"
+                                                                            class="port" alt="image-1">
+                                                                    </div>
+                                                                </a>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--   End Card four -->
+
+                                                <!--   Port card five -  Balance  -->
+                                                <div class="col s12 m4">
+                                                    <div class="card" id="tab5P">
+                                                        <div class="icon-block">
+                                                            <span class="card-title"><a
+                                                                    href="https://radiant-plains-19401.herokuapp.com/">
+                                                                    <h5 class="center white-text work"> Balance
+                                                                    </h5>
+                                                                    <div class="card-image">
+                                                                        <img src="assets/images/nature-5.jpg"
+                                                                            class="port" alt="image-1">
+                                                                    </div>
+                                                                </a>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--   End Card five -->
+
+                                                <!--   Port card six -  Weather
+                                                                    Dashboard  -->
+                                                <div class="col s12 m4">
+                                                    <div class="card" id="tab6P">
+                                                        <div class="icon-block">
+                                                            <span class="card-title"><a
+                                                                    href="https://jamierachael.github.io/Weather-Dashboard/">
+                                                                    <h5 class="center white-text work tab3P">
+                                                                        Weather
+                                                                        Dashboard
+                                                                    </h5>
+                                                                    <div class="card-image">
+                                                                        <img src="assets/images/nature-6.jpg"
+                                                                            class="port" alt="image-1">
+                                                                    </div>
+                                                                </a>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <!--   End Card six-->
+                                            </div>
+                                            <!-- End row two -->
+
+                                            <!-- Start row six -->
+                                            <div class="row">
+
+                                                <!--   Port card seven -  Social Media  -->
+                                                <div class="col s12 m4">
+                                                    <div class="card" id="tab7P">
+                                                        <div class="icon-block">
+                                                            <span class="card-title"><a href="index.html">
+                                                                    <h5 class="center white-text work"> Social Media
+                                                                    </h5>
+                                                                    <div class="card-image">
+                                                                        <img src="assets/images/nature-7.jpg"
+                                                                            class="port" alt="image-1">
+                                                                    </div>
+                                                                </a>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--   End Card seven -->
+
+                                                <!--   Port card eight -  Virtual Assistant  -->
+                                                <div class="col s12 m4">
+                                                    <div class="card" id="tab8P">
+                                                        <div class="icon-block">
+                                                            <span class="card-title"><a href="index.html">
+                                                                    <h5 class="center white-text work"> Virtual
+                                                                        Assistant
+                                                                    </h5>
+                                                                    <div class="card-image">
+                                                                        <img src="assets/images/nature-8.jpg"
+                                                                            class="port" alt="image-1">
+                                                                    </div>
+                                                                </a>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!--   End Card eight -->
+
+                                                <!--   Port card nine -  Web
+                                                                Development  -->
+                                                <div class="col s12 m4">
+                                                    <div class="card" id="tab9P">
+                                                        <div class="icon-block">
+                                                            <span class="card-title"><a href="index.html">
+                                                                    <h5 class="center white-text work tab9P">
+                                                                        Web Development
+                                                                    </h5>
+                                                                    <div class="card-image">
+                                                                        <img src="assets/images/nature-9.jpg"
+                                                                            class="port" alt="image-1">
+                                                                    </div>
+                                                                </a>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+
+                                                </div>
+                                                <!--   End Card eight-->
+                                                <h5><a href="list.html">Projects by List</h5></a>
+                                            </div>
+
+                                            <!-- End row three -->
+
+
+
+                                            <!-- </div> -->
+                                            <h5>Full Stack Web developer</h5>
+                                            <p>Offering a variety of services and professional support.
+                                            </p>
+                                        </div>
+                                        <div class="card-action">
+                                            <a href="https://www.linkedin.com/in/jamie-rachael-morris/">LinkedIn</a>
+                                            <a href="https://github.com/jamierachael">Github</a>
+                                        </div>
+                                </div>
+                            </div>
+                        </div>
+                        </section>
+
+                    </div>
+                    <!-- End Main Row -->
+                </div>
+
+                <br><br>
+
+            </div>
+        </div>
+        <div class="parallax" id="op-para"><img src="assets/images/pano-dam.jpg"
+                alt="panoramic-dam-photo-mateo_atom-instagram">
+        </div>
     </div>
 
-    <footer>
-        <!-- This is a footer-->
-        <p>Jamie Rachael Morris Copyright &copy; 2019</p>
-    </footer>
+
+    <div class="container">
+        <div class="section">
+
+            <!--   Icon Section   -->
+            <div class="row">
+                <div class="col s12 m4">
+                    <div class="card start">
+                        <div class="icon-block">
+                            <h2 class="center brown-text"><a href="about.html"><i class="fas fa-user-alt"></i></h2>
+                            <span class="card-title">
+                                <h5 class="center">About
+                                    </a></h5>
+
+                            </span>
+                            <div class="middle">
+                                <p class="light">Learn a little about my background and experience, and what I can
+                                    offer
+                                    your
+                                    company or
+                                    business.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col s12 m4">
+                    <!-- Start Card -->
+                    <div class="card start">
+                        <div class="icon-block">
+                            <h2 class="center brown-text"><a href="portfolio.html"><i class="far fa-images"></i></h2>
+                            <span class="card-title">
+                                <h5 class="center">Portfolio</a></h5>
+                                <div class="middle">
+                                    <p class="light">Feel free to view and demonstrate projects and applications I've
+                                        developed or
+                                        collaborated on.</p>
+                                </div>
+                        </div>
+                    </div>
+                    <!-- End Card-->
+                </div>
+
+                <div class="col s12 m4">
+                    <!-- Start Card -->
+                    <div class="card start">
+                        <div class="icon-block">
+                            <h2 class="center brown-text"><a href="contact.html"><i class="far fa-address-book"></i>
+                            </h2>
+                            <span class="card-title">
+                                <h5 class="center">Contact</a></h5>
+
+                            </span>
+                            <div class="middle">
+                                <p class="light">I am interested in connecting with potential employers, clients and
+                                    professionals in my
+                                    field, and learning about new opportunites.</p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Card -->
+                </div>
+                <!-- End Row-->
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="parallax-container valign-wrapper">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <div class="row center">
+
+                </div>
+            </div>
+        </div>
+
+        <div class="parallax" id="op-para"><img src="assets/images/pano-shore.jpg"
+                alt="panoramic-shore-photo-mateo_atom-instagram">
+        </div>
+
+        <div class="container">
+            <div class="section">
+
+                <div class="row">
+                    <div class="col s12 center">
+                        <h3><i class="mdi-content-send brown-text"></i></h3>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="parallax-container valign-wrapper">
+            <div class="section no-pad-bot">
+                <div class="container">
+                    <div class="row center">
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <footer class="page-footer teal">
+            <div class="container">
+                <div class="row">
+                    <div class="col l8 s14">
+                        <h5 class="white-text">Contact Us</h5>
+                        <p class="grey-text text-lighten-4">We are a team of college students working on this
+                            project
+                            like it's our
+                            full time job. Any amount would help support and continue development on this project
+                            and is
+                            greatly
+                            appreciated.</p>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <div class="container">
+                    <!-- Made by <a class="brown-text text-lighten-3" href="http://materializecss.com">Materialize</a> -->
+                    <p class="brown-text text-lighten-3">Jamie Rachael Morris Copyright &copy; 2019</p>
+                </div>
+            </div>
+        </footer>
+
+
+        <!--  Scripts-->
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="js/materialize.js"></script>
+        <script src="js/init.js"></script>
 
 </body>
 
-</HTML>
+</html>

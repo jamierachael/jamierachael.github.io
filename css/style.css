@@ -1,0 +1,278 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+ body {
+  font-size: 100%;
+}
+
+nav ul a,
+nav {
+  color: #444;
+}
+
+a:link {
+  color: #6d4446;
+}
+
+a:visited {
+  color: #6d4446;
+}
+
+a.brand-logo:link{
+  color:#FFFFFF;
+}
+
+
+a.brand-logo:visited{
+  color:#FFFFFF;
+}
+
+.brand-logo-btn {
+  background-color: #26a69a;
+  color: white;
+  /* font-weight: bold; */
+  
+}
+
+a.brand-logo-btn:link{
+  color:#FFFFFF;
+}
+
+
+a.brand-logo-btn:visited{
+  color:#FFFFFF;
+}
+
+.brand-logo {
+  background-color: #26a69a;
+  color: white;
+  font-weight: bold;
+  
+}
+
+#logo-container {
+  padding-left: 10px;
+  padding-right: 10px;
+  
+}
+
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+
+#op-para {
+  opacity: .5;
+}
+
+  .icon-block {
+    padding: 0 15px;
+    padding-top: 10px;
+  }
+  .icon-block .material-icons {
+    font-size: inherit;
+  }
+
+  .icon-block-port {
+    padding: 0 10px;
+    padding-top: 10px;
+    
+  }
+ 
+  footer.page-footer {
+    margin: 0;
+  }
+  
+  .intro {
+    margin-left: 55%;
+    width: 100%;
+    margin-top: 40%;
+    
+  }
+
+  .about {
+    color: black;
+    text-align: start;
+      padding-bottom: 15px;
+ 
+  }
+
+  #about-img {
+
+    width: 250px;
+    height: auto;
+    float: left; 
+    margin: 20px;
+    
+  }
+
+  #about-title {
+    text-align: left;
+  }
+
+  .main {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .card-content {
+    /* font-size: medium; */
+    margin: 10px;
+  }
+  
+  #download-button {
+    margin-bottom: 5%;
+  }
+  
+  .header {
+    font-weight: bold;
+  }
+  
+  h5 {
+    font-weight: bold;
+  }
+  
+  .start {
+    height: 350px;
+    width: auto;
+  }
+
+  p {
+
+    font-size: large;
+      line-height: 2rem;
+    }
+
+
+
+  #tab1P, #tab2P, #tab3P, #tab4P, #tab5P, #tab6P, #tab7P, #tab8P, #tab9P {
+    height: 300px;
+    width: 300px;
+  }
+
+  .tab3P {
+        font-size: 19px;
+        line-height: 2rem;
+
+  }
+
+  .about-img {
+    height: 50%;
+    width: auto;
+  }
+  
+.work {
+  border-bottom: 0; 
+  background-color: #26a69a;
+  color:#FFFFFF;
+  text-align: center; 
+  position: absolute; 
+  bottom: 60px; 
+  padding-top:  15px;
+  padding-bottom:  15px;
+  width: 90%;
+  margin-bottom: 0;
+  z-index: 1;
+}
+
+.port {
+  /* width: 300px; */
+  height: 275px;
+  position: absolute; 
+  z-index: 0;
+ 
+}
+
+ li img {
+   
+  width: 70%;
+    margin-bottom: 5px;
+ } 
+
+ .list {
+  margin-bottom: 15px;
+ }
+
+ #list-card{ 
+   width: 70%;
+   margin-left: 16%;
+ }
+
+ .contact-card {
+   width: 60%;
+   margin-left: 20%;
+   margin-right: 20%;
+ }
+ 
+ .ccard {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+  padding-left: 20%;
+}
+
+.border {
+  border: 1px solid #26a69a;
+}
+
+.contact {
+
+  color: black;
+  text-align: start;
+  font-size: 18px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.middle {
+
+  color: black;
+  text-align: start;
+    padding: 10px 0;
+    margin: 0 5px;
+    
+}
+
+.fa-print {
+  padding: 5px 0;
+  margin-left: 3%;
+}
+
+.card-action {
+  font-size: medium;
+  margin-top: 10px;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+
