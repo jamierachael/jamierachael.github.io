@@ -1,9 +1,10 @@
-# jamierachael.github.io
-# Portfolio
+# New-Portfolio
+Changing style and layout 
+
 Jamie Rachael Morris - Portfolio of Web Development Projects
 
-* ['Portfolio GitHub'](https://github.com/jamierachael/jamierachael.github.io)
-* ['Portfolio GitHub IO'](https://jamierachael.github.io/)
+* ['Portfolio GitHub'](https://github.com/jamierachael/New-Portfolio)
+* ['Portfolio GitHub IO'](https://jamierachael.github.io/New-Portfolio/)
 
 
 ### Summary

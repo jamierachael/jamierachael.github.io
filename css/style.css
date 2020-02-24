@@ -61,7 +61,6 @@ a.brand-logo-btn:visited{
   
 }
 
-
 .sidenav-trigger {
   color: #26a69a;
 }
@@ -131,7 +130,6 @@ a.brand-logo-btn:visited{
     margin-right: 10px;
   }
   .card-content {
-    /* font-size: medium; */
     margin: 10px;
   }
   
@@ -148,8 +146,9 @@ a.brand-logo-btn:visited{
   }
   
   .start {
-    height: 350px;
+    height: 375px;
     width: auto;
+
   }
 
   p {
@@ -159,10 +158,9 @@ a.brand-logo-btn:visited{
     }
 
 
-
   #tab1P, #tab2P, #tab3P, #tab4P, #tab5P, #tab6P, #tab7P, #tab8P, #tab9P {
-    height: 300px;
-    width: 300px;
+    height: 275px;
+    width: 275px;
   }
 
   .tab3P {
@@ -185,21 +183,19 @@ a.brand-logo-btn:visited{
   bottom: 60px; 
   padding-top:  15px;
   padding-bottom:  15px;
-  width: 90%;
+  width: 89%;
   margin-bottom: 0;
   z-index: 1;
 }
 
 .port {
-  /* width: 300px; */
-  height: 275px;
+  height: 250px;
   position: absolute; 
   z-index: 0;
  
 }
 
  li img {
-   
   width: 70%;
     margin-bottom: 5px;
  } 
@@ -222,8 +218,7 @@ a.brand-logo-btn:visited{
  .ccard {
   font-size: 20px;
   font-weight: bold;
-  text-align: left;
-  padding-left: 20%;
+  padding: 5%;
 }
 
 .border {
@@ -231,7 +226,6 @@ a.brand-logo-btn:visited{
 }
 
 .contact {
-
   color: black;
   text-align: start;
   font-size: 18px;
@@ -241,7 +235,6 @@ a.brand-logo-btn:visited{
 }
 
 .middle {
-
   color: black;
   text-align: start;
     padding: 10px 0;
@@ -259,20 +252,189 @@ a.brand-logo-btn:visited{
   margin-top: 10px;
 }
 
+
+/* Media Queries*/
+
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
     position: absolute;
     top: 40%;
+    
   }
   #index-banner .section {
     top: 10%;
   }
+
+  .parallax-intro {
+    min-height: 650px;
+
+  }
+
+  .parallax-about {
+    min-height: 1500px;
+
+  }
+
+  .parallax-portfolio {
+    min-height: 2600px;
+
+  }
+
+  .parallax-contact {
+    min-height: 725px;
+    
+  }
+
+  .parallax-resume {
+    min-height: 1800px;
+    
+  }
+
+
+.parallax-list {
+  min-height: 2050px;
+}
+
+
+  .intro {    
+  margin: 0 auto 0 50%;
+
+  }
+
+.about-card {
+  margin: 0 auto;
+  margin: 0 auto;
+}
+
+#about-img {
+  width: 40%;
+  height: auto; 
+  
+}
+
+.contact-card {
+  margin: 0 auto;
+  width: auto;  
+  
+}
+
+.start {
+  height: 400px;
+  width: auto;
+
+}
+
+#tab1P, #tab2P, #tab3P, #tab4P, #tab5P, #tab6P, #tab7P, #tab8P, #tab9P {
+  height: 300px;
+  width: 300px;
+     
+}
+
+.tab3P {
+      font-size: 19px;
+      line-height: 2rem;
+      
+}
+
+  
+.work {
+  border-bottom: 0; 
+  background-color: #26a69a;
+  color:#FFFFFF;
+  text-align: center; 
+  position: absolute; 
+  bottom: 60px; 
+  padding-top:  15px;
+  padding-bottom:  15px;
+  width: 90%;
+  margin-bottom: 0;
+  z-index: 1;
+}
+
+.port {
+  height: 275px;
+  position: relative; 
+  z-index: 0;
+  
+}
+  
 }
 
 @media only screen and (max-width : 600px) {
   #index-banner .section {
     top: 0;
   }
+
+  .parallax-container .section {
+    position: absolute;
+    /* top: 10%; */
+    
+  }
+  #index-banner .section {
+    top: 5%;
+  }
+
+  .parallax-intro {
+    min-height: 700px;
+
+  }
+
+  .parallax-about {
+    min-height: 2000px;
+
+  }
+
+  .parallax-portfolio {
+    min-height: 3500px;
+
+  }
+
+  #tab1P, #tab2P, #tab3P, #tab4P, #tab5P, #tab6P, #tab7P, #tab8P, #tab9P {
+  
+    margin: 0 auto;
+    margin-bottom: 5%;
+       
+  }
+
+  .parallax-list {
+    min-height: 1700px;
+  }
+
+
+  .parallax-resume {
+    min-height: 1200px;
+    
+  }
+
+  .intro {    
+  margin: 0 auto;
+
+  }
+
+.about-card {
+  margin: 0 5% auto 0;
+}
+
+#about-img {
+  width: 40%;
+  height: auto; 
+  
+}
+
+.contact-card {
+  margin: 0 auto;
+  width: auto;  
+  
+}
+
+.start {
+  height: 400px;
+  width: auto;
+
+}
+.ccard {
+  padding-left: 5%;
+}
 }
 
 
